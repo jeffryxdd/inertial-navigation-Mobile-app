@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": " Bigeo",
+    "slug": "expo-gps-inertial-nav-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/hoja.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/hoja.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+      
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/hoja.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourcompany.expogpsinertialnavapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDiuNyDrbXfm2aiSQNIoqWZ3kEe52b2DN4"
+        }
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/hoja.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "825c7431-5a4a-435a-be5b-4634c8c59b3b"
+      }
+    }
+  }
+}
